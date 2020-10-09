@@ -1,0 +1,487 @@
+/* DOCUMENT INFORMATION
+	- Document: Integration Maquette Business
+	- Version: 1.0.0
+	- Author: Quentin
+*/
+
+/******************************************* GLOBAL ************************************************/
+
+h1, h2, h3, h4
+{
+	font-family: 'Roboto', 'Arial', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	word-spacing: 8px;
+}
+
+.row {
+	margin-right: 0px !important;
+}
+/******************************************* HEADER ************************************************/
+
+header {
+	background-image: linear-gradient(	rgba(0,0,0,0.5),
+										rgba(0,0,0,0.5)),
+										url(images/image1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.home-title {
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+
+.home-title p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: background-color 1s, color 1s;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: white;
+	border: 1px solid white;
+	border-radius: 0px;
+	margin-top: 30px;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+/******************************************* ABOUT US ************************************************/
+
+.margin_right {
+	margin-right: 0px;
+}
+
+.about_back {
+	background-image: url(images/logo1.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+.about_us h2 {
+	padding-top: 90px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	width: 95%;
+}
+
+.about_us p {
+	padding-right: 30px;
+	text-align: justify;
+}
+
+.about_us a p{
+	margin-bottom: 90px;
+}
+
+@media all and (max-width: 768px) {
+	.about_us p {
+		padding-right: 0px;
+	}
+	.about_us h2 {
+		text-align: center;
+		font-size: 1.5em;
+		margin-bottom: 50px;
+	}
+}
+/*************************************** OUR INDUSTRIES **********************************************/
+
+.our {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.our h2 {
+	font-size: 1.4em;
+	margin-bottom: 50px;
+}
+
+.our_align {
+	text-align: center;
+	transition: all 1s ease;
+}
+
+.our_align:hover {
+	transform: scale(1.25)
+}
+
+.our_align i {
+	font-size: 5em;
+	padding-bottom: 30px;
+}
+
+.our_align h3{
+	font-size: 1em; 
+}
+
+.our_align p{
+	font-size: 0.7em; 
+}
+
+.our_back {
+	background-color: #d9d9d9;
+	padding-bottom: 100px;
+}
+
+@media all and (max-width: 768px) {
+	.container {
+		padding-right: 0px;
+	}
+}
+/*************************************** WE ADVICE YOU **********************************************/
+
+.advice {
+	text-align: center;
+	background-image: url(images/image3.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	color: white;
+}
+
+.advice h2 {
+	font-size: 1.4em;
+	padding-bottom: 50px;
+}
+
+.advice_up {
+	font-size: 1.4em;
+	font-family: 'Arial Black';
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/*************************************** MEAT OUR TEAM **********************************************/
+
+.team h2{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 60px;
+}
+
+.profil_team img {
+	margin-bottom: 10px;
+	height: 200px;
+	width: auto;
+}
+
+.profil_team span {
+	font-weight: bold;
+}
+
+.profil_team p {
+	font-size: 0.7em;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+	margin: 50px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	width: auto;
+}
+.logo img {
+	transition: all 1s ease;
+}
+
+.logo img:hover {
+	transform: scale(1.25)
+}
+
+@media all and (max-width: 768px) {
+	.team {
+		text-align: center;
+		margin-left: 25px;
+	}
+	.profil_team {
+		
+	}
+	.profil_team p {
+		width: 90%;
+		margin-left: 10px;
+	}
+}
+/*************************************** WHAT PEOPLE SAY **********************************************/
+
+.people {
+	background-color: #d9d9d9; 
+	padding-bottom: 80px;
+}
+.people h2{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	font-size: 1.4em;
+}
+
+.say {
+	margin-top: 20px;
+}
+
+.avis
+{
+	display: flex;
+	width: 350px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.avis_box {
+	display: flex;
+	justify-content: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+}
+.avis_img {
+	margin-right: 20px;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+.avis_img img {
+	height: 150px;
+	width: auto;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.stars img {
+	height: 20px;
+	width: auto;
+}
+
+.avis_txt {
+	font-size: 0.7em;
+	font-style: italic;
+	padding-top: 10px;
+}
+
+h5 {
+	font-size: 0.9em;
+}
+
+@media all and (max-width: 768px) {
+
+	.avis
+	{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+
+	.avis_box {
+		display: flex;
+		flex-direction: column;
+	}
+	.center {
+		display: flex;
+		justify-content: center;
+	}
+
+	.avis_auto {
+		width: auto;
+		text-align: center;
+	}
+	.avis_img {
+		margin-right: 0px;
+	}
+}
+
+/*************************************** FOOTER **********************************************/
+
+footer {
+	padding-top: 100px;
+}
+
+footer h3 {
+	font-size: 1.4em;
+	margin-bottom: 20px;
+}
+
+.italic {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.follow {
+	color: #a3a3a3;
+	border-bottom: 1px solid #a3a3a3;
+}
+
+.icon {
+	display: flex;
+	margin-top: 10px;
+}
+
+.icon p {
+	margin-right: 15px;
+}
+
+.icon i {
+	margin-right: 20px;
+	color: #a3a3a3;
+	transition: all 1s ease;
+}
+.icon i:hover {
+	color: #49a4ff;
+	transform: scale(1.25)
+}
+
+.dispo_instagram {
+	display: flex;
+	flex-wrap: wrap;
+	width: 250px;
+	height: 250px;
+}
+
+.instagram h5{
+	font-size: 0.9em;
+	margin-bottom: 30px;
+}
+
+.dispo_instagram img {
+	width: 33%;
+	border: 1px solid black;
+	transition: all 1s ease;
+}
+.dispo_instagram img:hover {
+	transform: scale(1.25)
+
+}
+
+.form input{
+	margin: 0px;
+	border-radius: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 0px;
+	padding: 10px 15px;
+	background-color: white;
+	line-height: 0px;
+	margin-right: -4px;
+}
+
+.form a {
+	margin: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 0px;
+	padding: 10px 15px;
+	background-color: #a3a3a3;
+}
+
+.blogs h5 {
+	margin-bottom: 30px;
+}
+
+.article_blogs {
+	display: flex;
+ }
+
+.article_blogs img {
+	height: 70px;
+	width: auto;
+}
+
+.descri_blogs {
+	font-size: 0.7em;
+	padding-left: 20px;
+}
+
+.date_blogs {
+	color: #a3a3a3;
+}
+
+.copiryght {
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: 70px;
+}
+
+@media all and (max-width: 768px) {
+	.business {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.none {
+		display: none;
+	}
+
+	.icon {
+		text-align: center;
+		justify-content: center;
+	}
+
+	.icon p{
+		padding-left: 25px;
+	}
+
+	.form input{
+		margin: 0px;
+		border-radius: 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 0px;
+		padding: 10px 15px;
+		background-color: white;
+		line-height: 0px;
+		margin-right: -4px;
+		width: 150px;
+		height: 27px;
+		font-size: 0.8em;
+	}
+
+	.form a {
+		margin: 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-left: 0px;
+		padding: 5px 10px;
+		background-color: #a3a3a3;
+		font-size: 0.8em;
+	}
+
+	.blogs {
+		margin-left: 15px;
+		margin-bottom: 50px;
+	}
+
+	.instagram {
+		margin-left: 15px;
+	}
+}
